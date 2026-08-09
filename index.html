@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Social Battery Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🧠 THE SOCIAL BATTERY TEST</h1>
+        <h2>Are you an Introvert or an Extrovert?</h2>
+
+        <p class="subtitle">
+            Answer six highly scientific questions. Probably.
+        </p>
+
+        <div id="quiz">
+
+            <div class="question">
+                <h3>1. You arrive at a party where you know three people. You...</h3>
+
+                <label>
+                    <input type="radio" name="q1" value="intro">
+                    A. Locate those three people immediately.
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="extro">
+                    B. Excellent. Three friends and 47 future friends.
+                </label>
+            </div>
+
+
+            <div class="question">
+                <h3>2. Your ideal Friday night is...</h3>
+
+                <label>
+                    <input type="radio" name="q2" value="intro">
+                    A. Couch. Snacks. Nobody needing anything from me.
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="extro">
+                    B. Wherever everybody else is going.
+                </label>
+            </div>
+
+
+            <div class="question">
+                <h3>3. Someone says, "Let's go around the room and introduce ourselves."</h3>
+
+                <label>
+                    <input type="radio" name="q3" value="intro">
+                    A. Suddenly I have to use the bathroom.
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="extro">
+                    B. Finally, my moment.
+                </label>
+            </div>
+
+
+            <div class="question">
+                <h3>4. You see someone standing alone at a party.</h3>
+
+                <label>
+                    <input type="radio" name="q4" value="intro">
+                    A. We silently acknowledge our shared situation.
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="extro">
+                    B. New friend acquired.
+                </label>
+            </div>
+
+
+            <div class="question">
+                <h3>5. Pick your superpower:</h3>
+
+                <label>
+                    <input type="radio" name="q5" value="intro">
+                    A. Reading minds.
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="extro">
+                    B. Being able to talk to absolutely anyone.
+                </label>
+            </div>
+
+
+            <div class="question">
+                <h3>6. Be honest. How are you feeling about this quiz?</h3>
+
+                <label>
+                    <input type="radio" name="q6" value="intro">
+                    A. I appreciate that no human interaction was required.
+                </label>
+
+                <label>
+                    <input type="radio" name="q6" value="extro">
+                    B. Can I compare answers with everybody?
+                </label>
+            </div>
+
+
+            <button onclick="calculateResult()">Reveal My Social Battery</button>
+
+        </div>
+
+
+        <div id="result" class="hidden"></div>
+
+
+    </div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
