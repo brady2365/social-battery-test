@@ -6,7 +6,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background: rgb(0, 0, 0);
+    background: linear-gradient(135deg, #ffb6d9, #c8b6ff, #aee9ff);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,49 +15,51 @@ body {
 
 
 .container {
-    background: #111;
+    background: #fff8fc;
     max-width: 700px;
     width: 100%;
     padding: 35px;
     border-radius: 25px;
-    box-shadow: 0 15px 35px rgba(255, 0, 0, 0.2);
+    box-shadow: 0 15px 35px rgba(156, 77, 204, 0.25);
+    border: 3px solid #ffffff;
 }
 
 
 h1 {
     text-align: center;
     font-size: 32px;
-    color: white;
+    color: #9b4dca;
     margin-bottom: 10px;
 }
 
 
 h2 {
     text-align: center;
-    color: #ddd;
+    color: #6f5b7e;
     font-weight: normal;
 }
 
 
 .subtitle {
     text-align: center;
-    color: #aaa;
+    color: #8f7a9d;
     margin-bottom: 30px;
     font-style: italic;
 }
 
 
 .question {
-    background: #222;
+    background: #f5eaff;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 15px;
+    border: 2px solid #e2c8ff;
 }
 
 
 .question h3 {
     margin-top: 0;
-    color: white;
+    color: #7138a8;
 }
 
 
@@ -65,22 +67,25 @@ label {
     display: block;
     padding: 12px;
     margin: 8px 0;
-    background: #333;
-    color: white;
+    background: #ffffff;
+    color: #4d3d55;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.2s;
+    border: 2px solid #f0d9ff;
 }
 
 
 label:hover {
-    background: #550000;
+    background: #ffe0f0;
+    border-color: #ff9fca;
     transform: translateX(5px);
 }
 
 
 input {
     margin-right: 10px;
+    accent-color: #c45be8;
 }
 
 
@@ -89,16 +94,18 @@ button {
     padding: 15px;
     border: none;
     border-radius: 15px;
-    background: #d30000;
+    background: linear-gradient(90deg, #ff6fb5, #b85cff);
     color: white;
     font-size: 18px;
+    font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 0 6px 15px rgba(184, 92, 255, 0.25);
 }
 
 
 button:hover {
-    background: #ff0000;
+    background: linear-gradient(90deg, #ff4fa5, #a83cff);
     transform: scale(1.03);
 }
 
@@ -107,15 +114,16 @@ button:hover {
     margin-top: 30px;
     padding: 25px;
     border-radius: 20px;
-    background: #222;
-    color: white;
+    background: linear-gradient(135deg, #fff0f8, #f1e7ff);
+    color: #4d3d55;
     text-align: center;
     line-height: 1.6;
+    border: 2px solid #e2c8ff;
 }
 
 
 #result h2 {
-    color: white;
+    color: #9b4dca;
 }
 
 
